@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.684" height="42.632" viewBox="0 0 53.684 42.632">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#46d546"/>
+      <stop offset="1" stop-color="#46d5a4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1599" data-name="Group 1599" transform="translate(-344.158 -5228.289)">
+    <path id="iPhone_11_Pro_Max_Copy" data-name="iPhone 11 Pro Max Copy" d="M3.553-64.737A67.954,67.954,0,0,0,15.132-79.079Q3.158-81.842,3.158-90.789a12.057,12.057,0,0,1,.658-4.079,10.459,10.459,0,0,1,2.237-3.553,10.192,10.192,0,0,1,7.632-3.289A10.259,10.259,0,0,1,22.368-97.5a14.305,14.305,0,0,1,2.039,4.276,19.139,19.139,0,0,1,.724,5.461q0,9.474-17.368,28.553Zm30.263,1.974,7.105-8.026,5.263-8.289Q34.737-81.974,34.737-90.789a11.088,11.088,0,0,1,3.026-7.763,10.4,10.4,0,0,1,7.632-3.158,10.28,10.28,0,0,1,8.816,4.342,16.535,16.535,0,0,1,2.632,9.605q0,11.447-17.105,28.684Z" transform="translate(341 5330)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
