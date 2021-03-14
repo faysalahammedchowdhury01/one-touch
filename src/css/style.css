@@ -366,6 +366,7 @@ button:focus {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   border-radius: 50%;
+  outline: none !important;
 }
 
 #devices-section .device-card .swiper-container .swiper-next-button {
@@ -581,6 +582,7 @@ button:focus {
 }
 
 #testimonial-section .swiper-pagination {
+  outline: none !important;
   position: static !important;
 }
 
@@ -717,6 +719,7 @@ button:focus {
 /* ======= Page 2 ======= */
 .page-2 {
   /* ======= hero Section ======= */
+  /* ======= Product Info Section ======= */
   /* ======= How It Works Section ======= */
   /* ======= Info Section ======= */
 }
@@ -776,6 +779,133 @@ button:focus {
   .page-2 #hero-section .left-side .button-box .button {
     width: 100% !important;
   }
+}
+
+.page-2 #product-info-section {
+  padding: 100px 0;
+}
+
+@media (max-width: 575px) {
+  .page-2 #product-info-section {
+    padding: 60px 0;
+  }
+}
+
+.page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link {
+  cursor: pointer;
+  width: 74px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 11px;
+  margin: 10px 0;
+}
+
+@media (min-width: 1400px) {
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link {
+    width: 92px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link {
+    width: 100px;
+  }
+}
+
+@media (max-width: 767px) {
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link {
+    width: 23%;
+    margin: 10px 1%;
+  }
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:first-child {
+    margin-left: 0;
+  }
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:last-child {
+    margin-right: 0;
+  }
+}
+
+.page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 767px) {
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:first-child {
+    margin-top: 10px;
+  }
+}
+
+.page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.page-2 #product-info-section .left-side .product-img-tab nav .nav-tabs .nav-link.active {
+  background: #ffffff;
+  border: 3px solid #3ab289;
+  border-radius: 11px;
+}
+
+.page-2 #product-info-section .left-side .product-img-tab .tab-content {
+  background: #fcfcfc 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 28px #0000000f;
+          box-shadow: 0px 3px 28px #0000000f;
+  border-radius: 11px;
+  padding: 50px 100px;
+}
+
+@media (max-width: 767px) {
+  .page-2 #product-info-section .left-side .product-img-tab .tab-content {
+    margin-bottom: 30px;
+  }
+}
+
+.page-2 #product-info-section .right-side .product-card .product-short-details .price p {
+  color: #a2adbf;
+}
+
+.page-2 #product-info-section .right-side .product-card .product-short-details .price .amount {
+  color: #3ab289;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.page-2 #product-info-section .right-side .product-card .monthly-plan {
+  background: #f9fafc 0% 0% no-repeat padding-box;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.page-2 #product-info-section .right-side .product-card .monthly-plan p:first-child {
+  font-family: "poligon-bold";
+}
+
+.page-2 #product-info-section .right-side .product-card .monthly-plan p:last-child {
+  color: #5d6e88;
+}
+
+.page-2 #product-info-section .right-side .product-card .monthly-plan .price {
+  color: #ff0088;
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.page-2 #product-info-section .right-side .product-card .facilities .media i {
+  background: #ff0088;
+  border-radius: 50%;
+  padding: 4px 4px;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.page-2 #product-info-section .right-side .product-card .facilities .media .media-body .para-text {
+  color: #ff0088;
+  font-family: "poligon-semi-bold";
 }
 
 .page-2 #how-it-works-section {
