@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.556" height="225.556" viewBox="0 0 225.556 225.556">
+  <defs>
+    <filter id="Ellipse_74" x="0" y="0" width="225.556" height="225.556" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="19.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#46d546"/>
+      <stop offset="1" stop-color="#46d5a4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1597" data-name="Group 1597" transform="translate(-582.229 -2228.975)">
+    <g transform="matrix(1, 0, 0, 1, 582.23, 2228.97)" filter="url(#Ellipse_74)">
+      <circle id="Ellipse_74-2" data-name="Ellipse 74" cx="54.278" cy="54.278" r="54.278" transform="translate(58.5 55.5)" fill="#fff"/>
+    </g>
+    <path id="icons8_water" d="M25.641,27a1.393,1.393,0,0,0-1.113.579L13.4,44.23a14.706,14.706,0,1,0,24.488,0L26.754,27.579A1.393,1.393,0,0,0,25.641,27Zm.044,3.7L35.7,45.7a12.034,12.034,0,1,1-20.036,0Zm18.7,8.746a1.365,1.365,0,0,0-1.117,2.117L50.663,52.69a7.587,7.587,0,0,1-8.148,11.576,1.328,1.328,0,0,0-1.6.98,1.25,1.25,0,0,0,.936,1.514,9.335,9.335,0,0,0,2.493.311,10.225,10.225,0,0,0,8.548-15.895L45.5,40.046A1.312,1.312,0,0,0,44.389,39.442Z" transform="translate(662.594 2291.125)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

@@ -1,6 +1,7 @@
 /* ======= Basic ======= */
 body {
   font-family: 'poligon-regular';
+  overflow-x: hidden !important;
 }
 
 a,
@@ -929,6 +930,11 @@ button:focus {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.page-2 #features-section .features .features-icon {
+  width: 120px;
+  margin-left: -25px;
 }
 
 .page-2 #how-it-works-section {

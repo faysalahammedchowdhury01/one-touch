@@ -18,6 +18,7 @@ $button-size: 18px;
 /* ======= Basic ======= */
 body {
   font-family: 'poligon-regular';
+  overflow-x: hidden !important;
 }
 a,
 button {
@@ -850,6 +851,10 @@ button:focus {
         top: 48%;
         left: 50%;
         transform: translate(-50%, -50%);
+      }
+      .features-icon {
+        width: 120px;
+        margin-left: -25px;
       }
     }
   }

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="225.556" height="225.556" viewBox="0 0 225.556 225.556">
+  <defs>
+    <filter id="Ellipse_73" x="0" y="0" width="225.556" height="225.556" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="19.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#46d546"/>
+      <stop offset="1" stop-color="#46d5a4"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1596" data-name="Group 1596" transform="translate(-848.21 -5235.611)">
+    <g transform="matrix(1, 0, 0, 1, 848.21, 5235.61)" filter="url(#Ellipse_73)">
+      <circle id="Ellipse_73-2" data-name="Ellipse 73" cx="54.278" cy="54.278" r="54.278" transform="translate(58.5 55.5)" fill="#fff"/>
+    </g>
+    <path id="icons8_north_direction" d="M25.794,0,17.54,18.57l8.253-4.288,8.253,4.288ZM20.152,3.8a1.039,1.039,0,0,0-.161.032A22.681,22.681,0,0,0,3.161,24.76H.936a1.033,1.033,0,1,0,.1,2.063h2.1A22.711,22.711,0,0,0,24.762,48.457v2.1a1.032,1.032,0,1,0,2.063,0v-2.1A22.711,22.711,0,0,0,48.459,26.824h2.1a1.032,1.032,0,1,0,0-2.063H48.426A22.681,22.681,0,0,0,31.6,3.837a1.032,1.032,0,0,0-.516,2A20.634,20.634,0,0,1,46.4,24.76H42.2a1.033,1.033,0,1,0,.1,2.063H46.4a20.6,20.6,0,0,1-19.57,19.57V42.3a1.032,1.032,0,1,0-2.063,0v4.095a20.6,20.6,0,0,1-19.57-19.57H9.287a1.032,1.032,0,1,0,0-2.063H5.192A20.634,20.634,0,0,1,20.506,5.835,1.032,1.032,0,0,0,20.152,3.8Z" transform="translate(935.603 5319.59)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>
