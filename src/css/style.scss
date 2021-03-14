@@ -3,6 +3,7 @@
 $p-bold: 'poligon-bold';
 $p-regular: 'poligon-regular';
 $p-semi-bold: 'poligon-semi-bold';
+$p-light: 'poligon-light';
 $ec-bold: 'euclid-circular-bold';
 $ec-regular: 'euclid-circular-regular';
 
@@ -67,6 +68,16 @@ button:focus {
 }
 .poligon-semi-bold {
   font-family: 'poligon-semi-bold';
+}
+@font-face {
+  font-family: 'poligon-light';
+  src: url('../fonts/Poligon-Light.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.poligon-light {
+  font-family: 'poligon-light';
 }
 @font-face {
   font-family: 'euclid-circular-bold';
@@ -630,5 +641,80 @@ button:focus {
         transform: translateY(-50%);
       }
     }
+  }
+}
+
+/* ======= Page 2 ======= */
+.page-2 {
+  /* ======= hero Section ======= */
+  #hero-section {
+    .left-side {
+      .after-heading {
+        font-size: 30px;
+        color: #303846;
+      }
+      .heading {
+        font-family: $p-light;
+      }
+      .free-shipping-and-call-to-order-box {
+        img {
+          width: 50px;
+        }
+        p {
+          font-family: $p-semi-bold;
+        }
+        .free-shipping {
+          background-color: #ffe9f5;
+          border-radius: 45px;
+          padding: 10px 20px 10px 10px;
+          p {
+            color: #ff0088;
+          }
+        }
+        .call-to-order {
+          background-color: #ebf5ff;
+          border-radius: 45px;
+          padding: 10px 20px 10px 10px;
+          span {
+            color: #0482ff;
+          }
+          p {
+            color: #0482ff;
+          }
+        }
+      }
+    }
+    //   Responsive
+    @media (max-width: 1199px) {
+      padding: 250px 0 50px 0;
+      background-position: right;
+      .left-side {
+        .button-box {
+          .button {
+            margin: auto !important;
+          }
+        }
+      }
+    }
+    @media (max-width: 575px) {
+      .left-side {
+        .button-box {
+          .button {
+            width: 100% !important;
+          }
+        }
+      }
+    }
+  }
+
+  /* ======= How It Works Section ======= */
+  #how-it-works-section {
+    padding: 70px 0 50px 0;
+    background-color: #f2fff7;
+  }
+
+  /* ======= Info Section ======= */
+  #info-section {
+    padding: 150px 0 100px 0;
   }
 }

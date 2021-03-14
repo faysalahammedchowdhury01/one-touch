@@ -26,18 +26,6 @@ const deviceCardSlider = new Swiper('.device-card .swiper-container', {
     },
 });
 
-// Video Play OnClick
-const videoPlayIcon = document.querySelector('.play-icon');
-videoPlayIcon.addEventListener('click', () => {
-    const video = document.querySelector('.video');
-    video.style.zIndex = 1;
-    video.style.opacity = 1;
-    video.play();
-    const videoImage = document.querySelector('.video-img');
-    videoImage.style.display = 'none';
-    videoPlayIcon.style.display = 'none';
-});
-
 // Swiper JS Testimonial Carousel
 const testimonialSlider = new Swiper('.testimonial-slider', {
     slidesPerView: 3,
@@ -64,4 +52,16 @@ const testimonialSlider = new Swiper('.testimonial-slider', {
             spaceBetweenSlides: 30,
         },
     },
+});
+
+// Video Play OnClick
+const videoPlayIcon = document.querySelector('.play-icon');
+videoPlayIcon.addEventListener('click', () => {
+    const video = document.querySelector('.video');
+    video.style.zIndex = 1;
+    video.style.opacity = 1;
+    video.play();
+    const videoImage = document.querySelector('.video-img');
+    videoImage.style.display = 'none';
+    videoPlayIcon.style.display = 'none';
 });

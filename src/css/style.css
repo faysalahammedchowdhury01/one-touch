@@ -66,6 +66,18 @@ button:focus {
 }
 
 @font-face {
+  font-family: 'poligon-light';
+  src: url("../fonts/Poligon-Light.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.poligon-light {
+  font-family: 'poligon-light';
+}
+
+@font-face {
   font-family: 'euclid-circular-bold';
   src: url("../fonts/EuclidCircularA-Bold.woff") format("woff");
   font-weight: bold;
@@ -700,5 +712,78 @@ button:focus {
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+/* ======= Page 2 ======= */
+.page-2 {
+  /* ======= hero Section ======= */
+  /* ======= How It Works Section ======= */
+  /* ======= Info Section ======= */
+}
+
+.page-2 #hero-section .left-side .after-heading {
+  font-size: 30px;
+  color: #303846;
+}
+
+.page-2 #hero-section .left-side .heading {
+  font-family: "poligon-light";
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box img {
+  width: 50px;
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box p {
+  font-family: "poligon-semi-bold";
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box .free-shipping {
+  background-color: #ffe9f5;
+  border-radius: 45px;
+  padding: 10px 20px 10px 10px;
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box .free-shipping p {
+  color: #ff0088;
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box .call-to-order {
+  background-color: #ebf5ff;
+  border-radius: 45px;
+  padding: 10px 20px 10px 10px;
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box .call-to-order span {
+  color: #0482ff;
+}
+
+.page-2 #hero-section .left-side .free-shipping-and-call-to-order-box .call-to-order p {
+  color: #0482ff;
+}
+
+@media (max-width: 1199px) {
+  .page-2 #hero-section {
+    padding: 250px 0 50px 0;
+    background-position: right;
+  }
+  .page-2 #hero-section .left-side .button-box .button {
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .page-2 #hero-section .left-side .button-box .button {
+    width: 100% !important;
+  }
+}
+
+.page-2 #how-it-works-section {
+  padding: 70px 0 50px 0;
+  background-color: #f2fff7;
+}
+
+.page-2 #info-section {
+  padding: 150px 0 100px 0;
 }
 /*# sourceMappingURL=style.css.map */
